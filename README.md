@@ -5,9 +5,6 @@ finder application that uses the PixaBay API to fetch images based on a query st
 I also implemented a Dialog box from Material UI to view the large image.
 
 
-## View Demo:
-[React Quiz](https://megfan.github.io/React_Quiz/)
-
 ## Built With
 
 * ReactJS
@@ -16,7 +13,10 @@ I also implemented a Dialog box from Material UI to view the large image.
 * PixaBay API
 * Axios
 
+![screenshot-localhost-3000-2019 01 07-15-51-32](https://user-images.githubusercontent.com/35031023/50774637-3e3aa000-1294-11e9-8cdc-dfa63f5c0bb9.png)
+
 ## Getting Started
+
 
     $ git clone https://github.com/davidrayoussef/react-quiz.git
     
@@ -26,11 +26,8 @@ I also implemented a Dialog box from Material UI to view the large image.
     
     $ npm start
 
-![screenshot-localhost-3000-2019 01 07-15-02-55](https://user-images.githubusercontent.com/35031023/50772389-e9942680-128d-11e9-9b65-13ce75eb58a2.png)
-
 
 ## Author
 
-* **Margaret Staszewska**
-- *Tutorial author: Traversy Media* -
+* **Margaret Staszewska** - *Tutorial author: Traversy Media* -
 

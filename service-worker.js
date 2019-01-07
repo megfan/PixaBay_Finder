@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PixaBay_Finder/precache-manifest.585bedecb2972a2e7c4e4c13aeb3445a.js"
+  "/PixaBay_Finder/precache-manifest.5bced7a105875eb4736089758108e3f3.js"
 );
 
 workbox.clientsClaim();

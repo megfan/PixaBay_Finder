@@ -1,4 +1,4 @@
-# ReactQuiz
+# PixaBay Finder
 
 In this project I used React along with Material UI to build an image
 finder application that uses the PixaBay API to fetch images based on a query string.

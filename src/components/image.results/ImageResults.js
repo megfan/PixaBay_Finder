@@ -23,9 +23,9 @@ class ImageResults extends Component {
 
       if(images){
         imageListContent = (
-            <GridList cols={4}>
+            <GridList cols={2} style={{ margin: '5vw'}}>
                 {images.map(img => (
-                    <GridTile
+                    <GridTile                    
                         title={img.tags}
                         key={img.id}
                         subtitle={

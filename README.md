@@ -18,23 +18,11 @@ I also implemented a Dialog box from Material UI to view the large image.
 
 
 
-![screenshot-localhost-3000-2019 01 07-15-51-32](https://user-images.githubusercontent.com/35031023/50774637-3e3aa000-1294-11e9-8cdc-dfa63f5c0bb9.png)
+![screenshot-localhost-3000-2019 06 27-20-33-14](https://user-images.githubusercontent.com/35031023/60292273-06e0ae00-991d-11e9-8ab9-5e870d46afa8.png)
 
-
-
-### Getting Started
-
-
-    $ git clone https://github.com/davidrayoussef/react-quiz.git
-    
-    $ cd react-quiz
-    
-    $ npm install
-    
-    $ npm start
 
 
 ### Author
 
-* **Margaret Staszewska** - *Tutorial author: Traversy Media* -
+* **Margaret Staszewska** 
 

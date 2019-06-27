@@ -8,8 +8,8 @@ import ImageResults from '../image.results/ImageResults';
 class Search extends Component {
     state = {
         searchText: "",
-        amount: 5,
-        apiURL: 'http://pixabay.com/api',
+        amount: 16,
+        apiURL: 'https://pixabay.com/api',
         apiKey: '11203747-477f21bca09afa2a9791d0410',
         images: [],
     }
@@ -34,36 +34,39 @@ class Search extends Component {
 
 
   render() {
-      console.log(this.state.images);
     return (
       <div>
-        <TextField
-            name="searchText"
-            value={this.state.searchText}
-            onChange={this.onTextChange}
-            floatingLabelText="Search For Images"
-            fullWidth={true}
-        />
-        <br/>
-        <SelectField
-            name="amount"
-            floatingLabelText="Amount"
-            value={this.state.amount}
-            onChange={this.onAmountChange}
-          >
-            <MenuItem value={5} primaryText="5" />
-            <MenuItem value={10} primaryText="10" />
-            <MenuItem value={15} primaryText="15" />
-            <MenuItem value={30} primaryText="30" />
-            <MenuItem value={50} primaryText="50" />
-            {/* <MenuItem value={5}><em>None</em></MenuItem>
-            <MenuItem value={10}>10</MenuItem>
-            <MenuItem value={15}>15</MenuItem>
-            <MenuItem value={30}>30</MenuItem>
-            <MenuItem value={50}>50</MenuItem> */}
-          </SelectField>
-          <br/>
-          {this.state.images.length > 0 ? (<ImageResults images={this.state.images} />) : null}
+        <div className="search">
+        <h1>Pixabay photo finder</h1>
+        <h2>The internet’s source of freely useable images.<br/>
+            Powered by creators everywhere.</h2>
+            <TextField
+                className='textfield'
+                inputStyle={{ color: '#fff' }}
+                name="searchText"
+                value={this.state.searchText}
+                onChange={this.onTextChange}
+                floatingLabelText="Search For Images"
+                fullWidth={false}
+                labelStyle={{ color: '#fff'}}
+            />
+            <br/>
+            <SelectField 
+                name="amount"
+                floatingLabelText="Amount"
+                value={this.state.amount}
+                onChange={this.onAmountChange}
+                labelStyle={{ color: '#fff' }}
+                
+            >
+                <MenuItem value={6} primaryText="6" />
+                <MenuItem value={10} primaryText="10" />
+                <MenuItem value={16} primaryText="16" />
+                <MenuItem value={30} primaryText="30" />
+                <MenuItem value={50} primaryText="50" />
+            </SelectField>            
+        </div>       
+        {this.state.images.length > 0 ? (<ImageResults images={this.state.images} />) : null}
       </div>
     )
   }

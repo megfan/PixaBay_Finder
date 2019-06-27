@@ -1,13 +1,14 @@
 {
-  "main.css": "/PixaBay_Finder/static/css/main.bad01777.chunk.css",
-  "main.js": "/PixaBay_Finder/static/js/main.ac101056.chunk.js",
-  "main.js.map": "/PixaBay_Finder/static/js/main.ac101056.chunk.js.map",
-  "static/js/1.456fbd52.chunk.js": "/PixaBay_Finder/static/js/1.456fbd52.chunk.js",
-  "static/js/1.456fbd52.chunk.js.map": "/PixaBay_Finder/static/js/1.456fbd52.chunk.js.map",
+  "main.css": "/PixaBay_Finder/static/css/main.3db906d4.chunk.css",
+  "main.js": "/PixaBay_Finder/static/js/main.576bb349.chunk.js",
+  "main.js.map": "/PixaBay_Finder/static/js/main.576bb349.chunk.js.map",
+  "static/js/1.54510782.chunk.js": "/PixaBay_Finder/static/js/1.54510782.chunk.js",
+  "static/js/1.54510782.chunk.js.map": "/PixaBay_Finder/static/js/1.54510782.chunk.js.map",
   "runtime~main.js": "/PixaBay_Finder/static/js/runtime~main.27b810b0.js",
   "runtime~main.js.map": "/PixaBay_Finder/static/js/runtime~main.27b810b0.js.map",
-  "static/css/main.bad01777.chunk.css.map": "/PixaBay_Finder/static/css/main.bad01777.chunk.css.map",
+  "static/media/index.css": "/PixaBay_Finder/static/media/pawel-czerwinski-suLgJZ1edT4-unsplash.13e17bba.jpg",
+  "static/css/main.3db906d4.chunk.css.map": "/PixaBay_Finder/static/css/main.3db906d4.chunk.css.map",
   "index.html": "/PixaBay_Finder/index.html",
-  "precache-manifest.1d01efc7c7f1e99715d5f653b4310def.js": "/PixaBay_Finder/precache-manifest.1d01efc7c7f1e99715d5f653b4310def.js",
+  "precache-manifest.49b314d79eac67577da2d0712ab4d358.js": "/PixaBay_Finder/precache-manifest.49b314d79eac67577da2d0712ab4d358.js",
   "service-worker.js": "/PixaBay_Finder/service-worker.js"
 }

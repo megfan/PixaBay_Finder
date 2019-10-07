@@ -25,4 +25,4 @@ I also implemented a Dialog box from Material UI to view the large image.
 ### Author
 
 * **Margaret Staszewska** 
-
+* **tutorial made by: Traversy Media
